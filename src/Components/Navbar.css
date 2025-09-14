@@ -1,0 +1,96 @@
+.mainOutline{
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+  justify-content: space-between;
+}
+.left{
+    height: 70px;
+    width: 450px;
+   position: relative;
+
+}
+.left-tags>a{
+display: inline-block;
+margin-left:40px;
+ margin-top: 25px;
+text-decoration: none;
+color: white;
+font-size: larger;
+font-weight: light;
+}
+.left-tags>a:hover{
+scale: 1.2;
+
+}
+.right{
+    height: 70px;
+    width: 500px;
+position: relative;    
+}
+.search>input{
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 15px;
+    height: 36px;
+    width: 174px;
+    text-align: center;
+   color: white;
+}
+.search>input:hover{
+    scale: 1.2;
+    background-color: white;
+    color: black;
+}
+
+.search>button{
+    margin-left: 8px;
+    border: none;
+    height: 36px;
+    width: 95px;
+    border-radius: 15px;
+    
+}
+
+.cart {
+  position: absolute;
+  top: 18px;
+  left: 330px;
+  transition: transform 0.2s ease;
+}
+
+.cart-link {
+  color: white;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.cart-link:hover {
+  transform: scale(1.1);
+}
+
+.profile>a{
+    color: white;
+    position: absolute;
+    top: 18px;
+    left: 380px;
+}
+.moon>img{
+    position: absolute;
+    height: 66px;
+    width: 79px;
+    top: 4px;
+    left: 517px;
+}
+.name{
+
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    top: 19px;
+    left: 556px;
+}
+.name>a{
+    text-decoration: none;
+    color: rgb(211, 205, 205);
+}

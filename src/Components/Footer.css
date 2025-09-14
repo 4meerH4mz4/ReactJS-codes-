@@ -1,0 +1,98 @@
+.BackGround{
+    width: 100%;
+    background-color:  rgb(24, 24, 24);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.Row1{
+    height: 280px;
+    width: 220px;
+    position: relative;
+}
+.Row2{
+    height: 280px;
+    width: 220px;
+
+}
+.Row3{
+    height: 280px;
+    width: 280px;
+ 
+}
+.footer-Moon>img{
+height: 100px;
+width: 100px;
+}
+.Zil-name{
+    position: absolute;
+    top: 29px;
+    left: 40px;
+    font-weight: bold;
+    color: white;
+}
+.founder a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 16px;    
+}
+.Founder-name{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 16px;    
+}
+.date{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 16px;
+    margin-top: 20px;    
+}
+
+.quick{
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 35px;
+ 
+}
+.quick-tags a{
+       color: white;
+    font-size: large;
+    margin-left: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 6px;
+}
+.quick-tags li{
+    list-style-type: none;
+}
+.help a{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;   
+}
+.work{
+       color: white;
+       margin-top: 20px; 
+ 
+}
+.phone{
+       color: white;
+       margin-top: 20px; 
+      font-weight: bold;
+      margin-left: 16px;
+}
+.mail{
+       color: white;
+       margin-top: 20px; 
+      font-weight: bold;
+      margin-left: 16px;
+}

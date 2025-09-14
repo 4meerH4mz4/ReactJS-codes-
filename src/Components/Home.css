@@ -1,0 +1,47 @@
+.backGround{
+    width: 100%;
+    background-color: rgb(192, 155, 103);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Left{
+   
+    height: 500px;
+    width: 500px;
+}
+.Left li{
+    list-style: none;
+}
+.Left a{
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(24, 24, 24);
+    font-size: xx-large;
+    font-weight: light;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+.Left a:hover{
+    color: 	 rgb(170, 108, 57);
+    scale: 1.1;
+}
+.Right{
+   
+    height: 500px;
+    width: 700px;
+    position: relative;
+}
+.Right>img{
+height: 500px;
+width: 500px;
+
+}
+.typedText{
+    color: rgb(170, 108, 57);
+    font-size: xx-large;
+    font-weight: bold;
+    position: absolute;
+    top: 205px;
+    left: 170px;
+}

@@ -1,0 +1,211 @@
+/* src/Components/Founder.css */
+.founder-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.founder-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.founder-header h1 {
+  font-size: 2.5rem;
+  color: #8e44ad;
+  margin-bottom: 10px;
+}
+
+.founder-tagline {
+  font-size: 1.2rem;
+  color: #777;
+  font-style: italic;
+}
+
+.founder-profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.founder-image-container {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.founder-image-placeholder {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(135deg, #9b59b6, #8e44ad);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.initials {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.founder-details {
+  flex: 2;
+  min-width: 300px;
+}
+
+.founder-details h2 {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.founder-title {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+.founder-age-tag {
+  display: inline-block;
+  background: #e74c3c;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.founder-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  border-left: 4px solid #9b59b6;
+  padding-left: 20px;
+  color: #555;
+  margin: 20px 0;
+}
+
+.founder-story, .founder-vision {
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
+
+.founder-story h3, .founder-vision h3 {
+  color: #8e44ad;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.passion-grid {
+  margin-bottom: 50px;
+}
+
+.passion-grid h3 {
+  color: #8e44ad;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+.passion-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.passion-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.passion-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.passion-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.passion-card h4 {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.passion-card p {
+  color: #7f8c8d;
+  line-height: 1.6;
+}
+
+.connect-section {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.connect-section h3 {
+  color: #8e44ad;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.connect-section p {
+  max-width: 700px;
+  margin: 0 auto 25px;
+  line-height: 1.8;
+}
+
+.connect-button {
+  display: inline-block;
+  background: #9b59b6;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.connect-button:hover {
+  background: #8e44ad;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(142, 68, 173, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .founder-profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .founder-quote {
+    border-left: none;
+    padding-left: 0;
+    border-top: 3px solid #9b59b6;
+    padding-top: 15px;
+  }
+  
+  .passion-cards {
+    grid-template-columns: 1fr;
+  }
+}
